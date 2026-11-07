@@ -1,0 +1,3 @@
+:root{--bg:#090B0D;--bg2:#121518;--surface:#191D20;--accent:#C5FF3B;--accent2:#FF6338;--text:#F4F2EB;--muted:#9AA0A5;--line:rgba(255,255,255,.12);--on-accent:#090B0D;--noise:.06;
+--display:'Space Grotesk',system-ui,sans-serif;--ui:'Inter',system-ui,sans-serif;--pad:clamp(1.1rem,4vw,3.5rem)}
+:root[data-theme=light]{--bg:#F4F2EB;--bg2:#EAE7DD;--surface:#FFFFFF;--accent:#1C2B00;--accent2:#D6401C;--text:#101315;--muted:#555B60;--line:rgba(0,0,0,.16);--on-accent:#C5FF3B;--noise:.04}

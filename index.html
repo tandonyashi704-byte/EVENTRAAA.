@@ -1,0 +1,35 @@
+<!doctype html><html lang="en" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EVENTRA: Don't just attend. Experience.</title><meta name="description" content="EVENTRA: discover and register for college festivals, hackathons, concerts, workshops and more.">
+<link rel="icon" href="assets/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/themes.css"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/animations.css"><script src="js/storage.js"></script></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav"><a class="logo" href="index.html" aria-label="EVENTRA home">EVENTRA<i>.</i></a>
+<nav class="links" aria-label="Primary"><a href="index.html#explore">Explore</a><a href="index.html#categories">Categories</a><a href="index.html#about">About</a></nav>
+<button class="icon-btn" data-theme-toggle aria-label="Toggle light or dark theme"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18" /><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+<a class="btn mag links" href="index.html#explore">Explore events</a>
+<button class="icon-btn burger" aria-expanded="false" aria-controls="menu" aria-label="Menu">☰</button></header>
+<div id="menu" role="dialog" aria-label="Menu"><a href="index.html#explore">Explore</a><a href="index.html#categories">Categories</a><a href="index.html#about">About</a><a href="index.html#explore" style="color:var(--accent)">Explore events</a></div>
+<main id="main">
+<section class="hero" aria-label="Introduction"><h1><span>Don't just</span><span class="l2">attend.</span><span class="l3">Experience.</span></h1>
+<figure class="hero-img"><img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=1000&q=70" alt="Crowd with raised hands at a night concert" width="640" height="800" fetchpriority="high" onerror="this.remove()"><figcaption class="float">Next up<br>K-Lumina · 14 Nov</figcaption></figure>
+<div class="hero-copy"><p class="meta">Vol. 01 · Bhubaneswar · 2026–27</p><p>Festivals, hackathons, concerts and workshops from campuses across the city, in one place you can search and register in a minute.</p>
+<div class="cta"><a class="btn mag" href="#explore">Explore events</a><a class="btn ghost mag" href="#featured-h">See featured</a></div></div><span class="scroll">Scroll</span></section>
+<div class="marquee" aria-hidden="true"><div class="track"><span>Hackathons</span><span>Music & Festivals</span><span>Workshops</span><span>Sports</span><span>Entrepreneurship</span><span>Art & Culture</span><span>Technology</span><span>Hackathons</span><span>Music & Festivals</span><span>Workshops</span><span>Sports</span><span>Entrepreneurship</span><span>Art & Culture</span><span>Technology</span></div></div>
+<section class="cats" id="categories"><div class="wrap"><h2>Pick your scene.</h2><div class="cat-wrap"><ul class="cat-list" id="cat-list"></ul><figure class="cat-prev" aria-hidden="true"><img alt="" width="420" height="520"></figure></div></div></section>
+<section id="featured-h"><div class="wrap"><h2 class="reveal">Featured</h2><div class="feat reveal" id="featured"></div>
+</div></section>
+<section class="explore" id="explore"><div class="wrap"><h2>Explore all events</h2>
+<div class="tools"><label class="skip" for="q">Search events</label><input id="q" type="search" placeholder="Search by name, venue or organizer" autocomplete="off">
+<label class="skip" for="sort">Sort</label><select id="sort"><option value="asc">Soonest first</option><option value="desc">Latest first</option></select></div>
+<div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+<p class="count-line"><span id="count" aria-live="polite"></span><button class="link" id="clear" type="button" hidden>Clear filters</button></p>
+<ul class="rows" id="results"></ul>
+<div class="empty" id="empty" hidden><h3>No events match.</h3><p>Try a shorter search or another category.</p><button class="btn" id="empty-clear" type="button">Clear filters</button></div></div></section>
+<section class="about" id="about"><div class="wrap"><p class="meta">About</p><p>EVENTRA gathers the things worth showing up for: the late-night hackathon, the mural walk, the final over under floodlights. Find it, check the details, register. That's the whole job.</p></div></section></main>
+<footer><div class="wrap"><div class="foot"><div><p class="big">EVENTRA</p><p class="note">Don't just attend. Experience.</p></div>
+<div><h4>Navigate</h4><ul><li><a href="index.html#explore">Explore</a></li><li><a href="index.html#categories">Categories</a></li><li><a href="index.html#about">About</a></li></ul></div>
+<div><h4>Follow</h4><ul><li><a href="https://instagram.com" rel="noopener">Instagram</a></li><li><a href="https://x.com" rel="noopener">X</a></li><li><a href="https://linkedin.com" rel="noopener">LinkedIn</a></li></ul></div>
+<div><h4>Contact</h4><ul><li><a href="mailto:hello@eventra.example">hello@eventra.example</a></li><li>Bhubaneswar, India</li></ul></div></div>
+<div class="legal"><span>© 2026 EVENTRA. Student project.</span><button class="link to-top" type="button">Back to top</button></div></div></footer>
+<script src="js/events.js"></script><script src="js/main.js"></script><script src="js/motion.js"></script></body></html>
