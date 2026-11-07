@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EVENTRA — Don't just attend. Experience.
 
 An event discovery site for college festivals, hackathons, concerts, workshops and more. Built with plain HTML, CSS and JavaScript. No build step, no framework.
@@ -42,3 +43,7 @@ Add `assets/images/home-dark.png`, `home-light.png`, `event.png`, `mobile.png` a
 
 ## Future improvements
 GSAP ScrollTrigger for the horizontal gallery and page transitions, a custom cursor, self-hosted optimised images, a real backend for registrations.
+=======
+# Eventra
+EVENTRA gathers the things worth showing up for: the late-night hackathon, the mural walk, the final over under floodlights. Find it, check the details, register. That's the whole job.
+>>>>>>> 67424df8c19dfb513dfda5acf57b12f126f7a514
