@@ -17,7 +17,7 @@ HTML5, CSS3 (custom properties), vanilla JavaScript, Google Fonts (Space Grotesk
 
 ## Run locally
 ```bash
-git clone <your-repo-url> && cd EVENTRA
+git clone https://github.com/tandonyashi704-byte/EVENTRAAA. && cd EVENTRAAA.
 python3 -m http.server 8000   # then open http://localhost:8000
 ```
 
@@ -37,9 +37,6 @@ assets/  favicon.svg  images/
 
 ## Deploy
 Static site, no config. **GitHub Pages:** Settings > Pages > deploy from `main` / root. **Netlify:** drag the folder in, or connect the repo (no build command, publish directory `.`). **Vercel:** import the repo, framework "Other".
-
-## Screenshots
-Add `assets/images/home-dark.png`, `home-light.png`, `event.png`, `mobile.png` and link them here.
 
 ## Future improvements
 GSAP ScrollTrigger for the horizontal gallery and page transitions, a custom cursor, self-hosted optimised images, a real backend for registrations.
